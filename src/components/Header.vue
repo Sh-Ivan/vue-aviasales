@@ -1,25 +1,24 @@
 <template>
   <header>
-      <div class="logo">
-        <img src='../assets/Logo.png' alt="logo" />
-      </div>
-    </header>
+    <div class="logo">
+      <img src="../assets/logo.png" alt="logo" />
+    </div>
+  </header>
 </template>
 
 <script>
 export default {
-  props: ["text"]
-  
-}
+  props: ["text"],
+};
 </script>
 
 <style scoped>
-  header {
+header {
   height: 160px;
   display: flex;
   justify-content: center;
   align-items: center;
-  }
+}
 
 .logo {
   width: 82px;
